@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/CMakeFiles/ELF2UF2Build
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/CMakeFiles/ELF2UF2Build.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/CMakeFiles/ELF2UF2Build-complete.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/src/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

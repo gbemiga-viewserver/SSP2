@@ -1,0 +1,3 @@
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/pioasm/CMakeFiles/pioasm.dir
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/pioasm/CMakeFiles/rebuild_cache.dir

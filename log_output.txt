@@ -1,0 +1,1737 @@
+�Connecting to WiFi... storystarter, password
+Connected.
+GPIO22 on
+IP Address: 192.168.8.247
+USBH init on controller 0
+sizeof(usbh_device_t) = 184
+sizeof(hcd_event_t) = 12
+sizeof(_ctrl_xfer) = 24
+sizeof(tuh_xfer_t) = 24
+sizeof(tu_fifo_t) = 20
+sizeof(tu_edpt_stream_t) = 40
+HUB init
+hcd_init 0
+sizeof(hw_endpoint_t) = 32
+Http server initialized.
+Started here somehow. Status=1
+Buffer not completex result=
+Got here somehow. Status=1
+[0:] USBH DEVICE ATTACH
+hcd_port_reset
+hcd_port_connect_status
+Full Speed
+[0:0] Open EP0 with Size = 8
+hcd_edpt_open dev_addr 0, ep_addr 0
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Get 8 byte of Device Descriptor
+[0:0] Get Descriptor: 80 06 00 01 00 00 08 00 
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 0, ep_addr 0x80, len 8
+hw_endpoint_init dev 0 ep 0 in xfer 0
+dev 0 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7408  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe008  [1] = 0x0000
+Completed transfer of 8 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 8 bytes
+[0:0] Control data:
+  0000:  12 01 10 02 00 00 00 40                          |.......@|
+hcd_edpt_xfer dev_addr 0, ep_addr 0x0, len 0
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Set Address = 1
+[0:0] Set Address: 00 05 01 00 00 00 00 00 
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 0, ep_addr 0x80, len 0
+hw_endpoint_init dev 0 ep 0 in xfer 0
+dev 0 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+hcd_device_close 0
+[0:1] Open EP0 with Size = 64
+hcd_edpt_open dev_addr 1, ep_addr 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Get Device Descriptor
+[0:1] Get Descriptor: 80 06 00 01 00 00 12 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 18
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7412  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe012  [1] = 0x0000
+  Short packet on buffer 0 with 18 bytes
+Completed transfer of 18 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 18 bytes
+[0:1] Control data:
+  0000:  12 01 10 02 00 00 00 40 33 28 86 01 19 04 01 02  |.......@3(......|
+  0010:  03 01                                            |..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Get Configuration[0] Descriptor (9 bytes)
+[0:1] Get Descriptor: 80 06 00 02 00 00 09 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 9
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7409  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe009  [1] = 0x0000
+  Short packet on buffer 0 with 9 bytes
+Completed transfer of 9 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 9 bytes
+[0:1] Control data:
+  0000:  09 02 40 00 02 01 04 80 FA                       |..@......|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Get Configuration[0] Descriptor
+[0:1] Get Descriptor: 80 06 00 02 00 00 40 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 64
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7440  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe040  [1] = 0x0000
+Completed transfer of 64 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 64 bytes
+[0:1] Control data:
+  0000:  09 02 40 00 02 01 04 80 FA 09 04 00 00 02 FF 89  |..@.............|
+  0010:  01 05 07 05 01 02 40 00 00 07 05 81 02 40 00 00  |......@......@..|
+  0020:  09 04 00 01 00 FF 89 01 05 09 04 01 00 02 FF 42  |...............B|
+  0030:  01 06 07 05 02 02 40 00 00 07 05 82 02 40 00 00  |......@......@..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Parsing Configuration descriptor (wTotalLength = 64)
+Set Configuration = 1
+[0:1] Set Configuration: 00 09 01 00 00 00 00 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 0
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+Device configured
+GPIO21 on
+Device attached, address = 1
+[0:1] Get Descriptor: 80 06 00 01 00 00 12 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 18
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7412  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe012  [1] = 0x0000
+  Short packet on buffer 0 with 18 bytes
+Completed transfer of 18 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 18 bytes
+[0:1] Control data:
+  0000:  12 01 10 02 00 00 00 40 33 28 86 01 19 04 01 02  |.......@3(......|
+  0010:  03 01                                            |..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Device 1: ID 2833:0186
+Device Descriptor:
+  bLength             18
+  bDescriptorType     1
+  bcdUSB              0210
+  bDeviceClass        0
+  bDeviceSubClass     0
+  bDeviceProtocol     0
+  bMaxPacketSize0     64
+  idVendor            0x2833
+  idProduct           0x0186
+  bcdDevice           0419
+  iManufacturer       1     [0:1] Get Descriptor: 80 06 01 03 09 04 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa00e  [1] = 0x0440
+  Short packet on buffer 0 with 14 bytes
+Completed transfer of 14 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 14 bytes
+[0:1] Control data:
+  0000:  0E 03 4F 00 63 00 75 00 6C 00 75 00 73 00        |..O.c.u.l.u.s.|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Oculus
+  iProduct            2     [0:1] Get Descriptor: 80 06 02 03 09 04 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa010  [1] = 0x0440
+  Short packet on buffer 0 with 16 bytes
+Completed transfer of 16 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 16 bytes
+[0:1] Control data:
+  0000:  10 03 51 00 75 00 65 00 73 00 74 00 20 00 32 00  |..Q.u.e.s.t. .2.|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Quest 2
+  iSerialNumber       3     [0:1] Get Descriptor: 80 06 03 03 09 04 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa01e  [1] = 0x0440
+  Short packet on buffer 0 with 30 bytes
+Completed transfer of 30 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 30 bytes
+[0:1] Control data:
+  0000:  1E 03 31 00 57 00 4D 00 48 00 48 00 42 00 36 00  |..1.W.M.H.H.B.6.|
+  0010:  36 00 34 00 47 00 32 00 31 00 31 00 34 00        |6.4.G.2.1.1.4.|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+1WMHHB664G2114
+  bNumConfigurations  1
+[0:1] Get Descriptor: 80 06 00 02 00 00 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa040  [1] = 0x8000
+  Short packet on buffer 1 with 0 bytes
+Completed transfer of 64 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 64 bytes
+[0:1] Control data:
+  0000:  09 02 40 00 02 01 04 80 FA 09 04 00 00 02 FF 89  |..@.............|
+  0010:  01 05 07 05 01 02 40 00 00 07 05 81 02 40 00 00  |......@......@..|
+  0020:  09 04 00 01 00 FF 89 01 05 09 04 01 00 02 FF 42  |...............B|
+  0030:  01 06 07 05 02 02 40 00 00 07 05 82 02 40 00 00  |......@......@..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Iterating end point !!
+  Open EP 02 with Size = 64
+hcd_edpt_open dev_addr 1, ep_addr 2
+Allocate bulk ep 0
+hw_endpoint_init dev 1 ep 2 out xfer 2
+dev 1 ep 2 out setup buffer @ 0x50100200
+endpoint control (0x50100008) <- 0xa8000200
+Opened output endpoint
+Iterating end point !!
+  Open EP 82 with Size = 64
+hcd_edpt_open dev_addr 1, ep_addr 130
+Allocate bulk ep 1
+hw_endpoint_init dev 1 ep 2 in xfer 2
+dev 1 ep 2 in setup buffer @ 0x50100240
+endpoint control (0x50100010) <- 0xa8000240
+Now registering callback to handle any data for device 1
+Finished registering callback to handle any data
+  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x1440  [1] = 0x0000
+OK
+adb_usbConfiguration {
+  address: 0x01
+  configuration: 0x01
+  interface: 0x01
+  inputEndPointAddress: 0x82
+  outputEndPointAddress: 0x02
+}
+GPIO27 on
+Device connected waiting
+--------------------------------------------------- Now sending ADB command ------------------------------------------------
+clear output feature
+HUB Clear Feature: , addr = 1 port = 2
+[0:1] Clear Feature: 02 01 00 00 02 00 00 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 0
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+clear input feature
+HUB Clear Feature: , addr = 1 port = 130
+[0:1] Clear Feature: 02 01 00 00 82 00 00 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 0
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+Success result.
+Now sending connection
+Writing ADB USB string message to 1 end point 2
+OUT << CNXN message [4e584e43] 16777216 4096
+Sending callback message
+  Queue EP 02 with 24 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 24
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd418  [1] = 0x0000
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 out
+Got here somehow. Status=16
+OK
+on EP 02 with 24 bytes
+Success result.
+Now finishing sending connection
+Sending second message
+  Queue EP 02 with 18 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 18
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf412  [1] = 0x0000
+OK
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000014
+  Sync BufCtrl: [0] = 0x6012  [1] = 0x0000
+  Short packet on buffer 0 with 18 bytes
+Completed transfer of 18 bytes on ep 2 out
+  Sync BufCtrl: [0] = 0xc018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 in
+Got here somehow. Status=16
+on EP 02 with 18 bytes
+Success result.
+Connected, now awaiting auth!!
+ADB EVENT OPEN connection=[host::microbridge]
+on EP 82 with 24 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Awaiting auth message got message:
+AUTH message [48545541] 1 0
+
+------------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0000
+OK
+---Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xe014  [1] = 0x0000
+  Short packet on buffer 0 with 20 bytes
+Completed transfer of 20 bytes on ep 2 in
+Got here somehow. Status=16
+---------------------- Done resubmitting buffer ----on EP 82 with 20 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Awaiting auth data got data:
+88 0E A7 47 8D 63 B1 72 6F C0 C7 0A 18 97 7B B3
+38 47 96 68 Now sending public key auth
+Writing ADB USB string message to 1 end point 2
+OUT << AUTH message [48545541] 3 0 736 bytes
+
+Sending callback message
+  Queue EP 02 with 24 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 24
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd418  [1] = 0x0000
+OStarted here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 out
+Got here somehow. Status=16
+K
+
+------------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x1440  [1] = 0x0000
+OK
+------------------------- Done resubmitting buffer ----on EP 02 with 24 bytes
+Success result.
+Now finishing sending auth
+Sending second message
+  Queue EP 02 with 736 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 736
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+OK
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd420  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4020  [1] = 0x0000
+  Short packet on buffer 0 with 32 bytes
+Completed transfer of 736 bytes on ep 2 out
+Got here somehow. Status=16
+on EP 02 with 736 bytes
+Success result.
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xc018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 in
+Got here somehow. Status=16
+on EP 82 with 24 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Got message:
+CNXN message [4e584e43] 16777217 4096
+-------------- Connection established now doing stuff ----------------GPIO28 on
+Now starting home screen
+Writing ADB USB string message to 1 end point 2
+OUT << OPEN message [4e45504f] 1 0
+Sending callback message
+  Queue EP 02 with 24 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 24
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf418  [1] = 0x0000
+OK
+
+----Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 out
+Got here somehow. Status=16
+--------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0000
+OStarted here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xe040  [1] = 0x0000
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x5440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xc040  [1] = 0x0000
+Completed transfer of 128 bytes on ep 2 in
+Got here somehow. Status=16
+K
+------------------------- Done resubmitting buffer ----on EP 02 with 24 bytes
+Success result.
+Now finishing sending disable sleep command
+Sending second message
+  Queue EP 02 with 56 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 56
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd438  [1] = 0x0000
+OK
+oStarted here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4038  [1] = 0x0000
+  Short packet on buffer 0 with 56 bytes
+Completed transfer of 56 bytes on ep 2 out
+Got here somehow. Status=16
+n EP 82 with 128 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Received data size 128 doesn't match message so bailingGot data now copying array:
+Got data:device::ro.product.name=hollywood;ro.product.model=Quest 2;ro.product.device=hollywood;features=shell_v2,cmd,stat_v2,ls_v2,fixed
+
+------------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0000
+OK
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xe040  [1] = 0x0000
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x5440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xc040  [1] = 0x0000
+Completed transfer of 128 bytes on ep 2 in
+Got here somehow. Status=16
+------------------------- Done resubmitting buffer ----on EP 02 with 56 bytes
+Success result.
+Now restarting ADBD in tcpip mode
+Writing ADB USB string message to 1 end point 2
+OUT << OPEN message [4e45504f] 1 0
+Sending callback message
+  Queue EP 02 with 24 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 24
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf418  [1] = 0x0000
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 out
+Got here somehow. Status=16
+OK
+on EP 82 with 128 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Received data size 128 doesn't match message so bailingGot data now copying array:
+Got data:_push_mkdir,apex,abb,fixed_push_symlink_timestamp,abb_exec,remount_shell,track_app,sendrecv_v2,sendrecv_v2_brotli,sendrecv_v2_lz
+
+------------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0000
+OK
+-------Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xe040  [1] = 0x0000
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x5440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xc007  [1] = 0x0000
+  Short packet on buffer 0 with 7 bytes
+Completed transfer of 71 bytes on ep 2 in
+Got here somehow. Status=16
+------------------ Done resubmitting buffer ----on EP 02 with 24 bytes
+Success result.
+Now finishing sending start tcpip
+Sending second message
+  Queue EP 02 with 11 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 11
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd40b  [1] = 0x0000
+OK
+on Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x400b  [1] = 0x0000
+  Short packet on buffer 0 with 11 bytes
+Completed transfer of 11 bytes on ep 2 out
+Got here somehow. Status=16
+EP 82 with 71 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Received data size 71 doesn't match message so bailingGot data now copying array:
+Got data:4,sendrecv_v2_zstd,sendrecv_v2_dry_run_send,openscreen_mdns,delayed_ack
+
+------------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+SinglStarted here somehow. Status=1
+Buffer not completex result=
+Got here somehow. Status=1
+e buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0000
+OK
+------------------------- Done resubmitting buffer ----on EP 02 with 11 bytes
+Success result.
+OUT << OKAY message [59414b4f] 1 0
+Sending callback message
+  Queue EP 02 with 24 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 24
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf418  [1] = 0x0000
+OK
+[0:0:0] USBH DEVICE REMOVED
+  Address = 1
+GPIO21 off
+GPIO27 off
+GPIO28 off
+Device removed, address = 1
+HUB close
+hcd_device_close 1
+Started here somehow. Status=1
+Buffer not completex result=
+Got here somehow. Status=1
+[0:] USBH DEVICE ATTACH
+hcd_port_reset
+hcd_port_connect_status
+Full Speed
+[0:0] Open EP0 with Size = 8
+hcd_edpt_open dev_addr 0, ep_addr 0
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Get 8 byte of Device Descriptor
+[0:0] Get Descriptor: 80 06 00 01 00 00 08 00 
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 0, ep_addr 0x80, len 8
+hw_endpoint_init dev 0 ep 0 in xfer 0
+dev 0 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7408  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe008  [1] = 0x0000
+Completed transfer of 8 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 8 bytes
+[0:0] Control data:
+  0000:  12 01 10 02 00 00 00 40                          |.......@|
+hcd_edpt_xfer dev_addr 0, ep_addr 0x0, len 0
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Set Address = 1
+[0:0] Set Address: 00 05 01 00 00 00 00 00 
+hw_endpoint_init dev 0 ep 0 out xfer 0
+dev 0 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 0, ep_addr 0x80, len 0
+hw_endpoint_init dev 0 ep 0 in xfer 0
+dev 0 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+hcd_device_close 0
+[0:1] Open EP0 with Size = 64
+hcd_edpt_open dev_addr 1, ep_addr 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Get Device Descriptor
+[0:1] Get Descriptor: 80 06 00 01 00 00 12 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 18
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7412  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe012  [1] = 0x0000
+  Short packet on buffer 0 with 18 bytes
+Completed transfer of 18 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 18 bytes
+[0:1] Control data:
+  0000:  12 01 10 02 00 00 00 40 33 28 86 01 19 04 01 02  |.......@3(......|
+  0010:  03 01                                            |..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Get Configuration[0] Descriptor (9 bytes)
+[0:1] Get Descriptor: 80 06 00 02 00 00 09 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 9
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7409  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe009  [1] = 0x0000
+  Short packet on buffer 0 with 9 bytes
+Completed transfer of 9 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 9 bytes
+[0:1] Control data:
+  0000:  09 02 40 00 02 01 04 80 FA                       |..@......|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Get Configuration[0] Descriptor
+[0:1] Get Descriptor: 80 06 00 02 00 00 40 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 64
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7440  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe040  [1] = 0x0000
+Completed transfer of 64 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 64 bytes
+[0:1] Control data:
+  0000:  09 02 40 00 02 01 04 80 FA 09 04 00 00 02 FF 89  |..@.............|
+  0010:  01 05 07 05 01 02 40 00 00 07 05 81 02 40 00 00  |......@......@..|
+  0020:  09 04 00 01 00 FF 89 01 05 09 04 01 00 02 FF 42  |...............B|
+  0030:  01 06 07 05 02 02 40 00 00 07 05 82 02 40 00 00  |......@......@..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Parsing Configuration descriptor (wTotalLength = 64)
+Set Configuration = 1
+[0:1] Set Configuration: 00 09 01 00 00 00 00 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 0
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+Device configured
+GPIO21 on
+Device attached, address = 1
+[0:1] Get Descriptor: 80 06 00 01 00 00 12 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 18
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7412  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe012  [1] = 0x0000
+  Short packet on buffer 0 with 18 bytes
+Completed transfer of 18 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 18 bytes
+[0:1] Control data:
+  0000:  12 01 10 02 00 00 00 40 33 28 86 01 19 04 01 02  |.......@3(......|
+  0010:  03 01                                            |..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Device 1: ID 2833:0186
+Device Descriptor:
+  bLength             18
+  bDescriptorType     1
+  bcdUSB              0210
+  bDeviceClass        0
+  bDeviceSubClass     0
+  bDeviceProtocol     0
+  bMaxPacketSize0     64
+  idVendor            0x2833
+  idProduct           0x0186
+  bcdDevice           0419
+  iManufacturer       1     [0:1] Get Descriptor: 80 06 01 03 09 04 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa00e  [1] = 0x0440
+  Short packet on buffer 0 with 14 bytes
+Completed transfer of 14 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 14 bytes
+[0:1] Control data:
+  0000:  0E 03 4F 00 63 00 75 00 6C 00 75 00 73 00        |..O.c.u.l.u.s.|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Oculus
+  iProduct            2     [0:1] Get Descriptor: 80 06 02 03 09 04 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa010  [1] = 0x0440
+  Short packet on buffer 0 with 16 bytes
+Completed transfer of 16 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 16 bytes
+[0:1] Control data:
+  0000:  10 03 51 00 75 00 65 00 73 00 74 00 20 00 32 00  |..Q.u.e.s.t. .2.|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Quest 2
+  iSerialNumber       3     [0:1] Get Descriptor: 80 06 03 03 09 04 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa01e  [1] = 0x0440
+  Short packet on buffer 0 with 30 bytes
+Completed transfer of 30 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 30 bytes
+[0:1] Control data:
+  0000:  1E 03 31 00 57 00 4D 00 48 00 48 00 42 00 36 00  |..1.W.M.H.H.B.6.|
+  0010:  36 00 34 00 47 00 32 00 31 00 31 00 34 00        |6.4.G.2.1.1.4.|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+1WMHHB664G2114
+  bNumConfigurations  1
+[0:1] Get Descriptor: 80 06 00 02 00 00 00 01 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 256
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Double buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0440
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Double Buffered: ep_ctrl = D0000180
+  Sync BufCtrl: [0] = 0xa040  [1] = 0x8000
+  Short packet on buffer 1 with 0 bytes
+Completed transfer of 64 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 64 bytes
+[0:1] Control data:
+  0000:  09 02 40 00 02 01 04 80 FA 09 04 00 00 02 FF 89  |..@.............|
+  0010:  01 05 07 05 01 02 40 00 00 07 05 81 02 40 00 00  |......@......@..|
+  0020:  09 04 00 01 00 FF 89 01 05 09 04 01 00 02 FF 42  |...............B|
+  0030:  01 06 07 05 02 02 40 00 00 07 05 82 02 40 00 00  |......@......@..|
+hcd_edpt_xfer dev_addr 1, ep_addr 0x0, len 0
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0x6000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 out
+Transfer complete
+Got here somehow. Status=24
+on EP 00 with 0 bytes
+
+Iterating end point !!
+  Open EP 02 with Size = 64
+hcd_edpt_open dev_addr 1, ep_addr 2
+Allocate bulk ep 0
+hw_endpoint_init dev 1 ep 2 out xfer 2
+dev 1 ep 2 out setup buffer @ 0x50100200
+endpoint control (0x50100008) <- 0xa8000200
+Opened output endpoint
+Iterating end point !!
+  Open EP 82 with Size = 64
+hcd_edpt_open dev_addr 1, ep_addr 130
+Allocate bulk ep 1
+hw_endpoint_init dev 1 ep 2 in xfer 2
+dev 1 ep 2 in setup buffer @ 0x50100240
+endpoint control (0x50100010) <- 0xa8000240
+Now registering callback to handle any data for device 1
+Finished registering callback to handle any data
+  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x1440  [1] = 0x0000
+OK
+adb_usbConfiguration {
+  address: 0x01
+  configuration: 0x01
+  interface: 0x01
+  inputEndPointAddress: 0x82
+  outputEndPointAddress: 0x02
+}
+GPIO27 on
+Device connected waiting
+--------------------------------------------------- Now sending ADB command ------------------------------------------------
+clear output feature
+HUB Clear Feature: , addr = 1 port = 2
+[0:1] Clear Feature: 02 01 00 00 02 00 00 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 0
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+clear input feature
+HUB Clear Feature: , addr = 1 port = 130
+[0:1] Clear Feature: 02 01 00 00 82 00 00 00 
+hw_endpoint_init dev 1 ep 0 out xfer 0
+dev 1 ep 0 out setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Started here somehow. Status=8
+Buffer not completex result=
+Transfer complete
+Sent setup packet
+Got here somehow. Status=8
+on EP 00 with 8 bytes
+hcd_edpt_xfer dev_addr 1, ep_addr 0x80, len 0
+hw_endpoint_init dev 1 ep 0 in xfer 0
+dev 1 ep 0 in setup buffer @ 0x50100180
+endpoint control (0x50100100) <- 0xa0000180
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0x7400  [1] = 0x0000
+Started here somehow. Status=24
+Buffer completex
+buf_status 0x00000001
+Single Buffered: ep_ctrl = A0000180
+  Sync BufCtrl: [0] = 0xe000  [1] = 0x0000
+  Short packet on buffer 0 with 0 bytes
+Completed transfer of 0 bytes on ep 0 in
+Transfer complete
+Got here somehow. Status=24
+on EP 80 with 0 bytes
+
+Success result.
+Now sending connection
+Writing ADB USB string message to 1 end point 2
+OUT << CNXN message [4e584e43] 16777216 4096
+Sending callback message
+  Queue EP 02 with 24 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 24
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd418  [1] = 0x0000
+OStarted here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 out
+Got here somehow. Status=16
+K
+on EP 02 with 24 bytes
+Success result.
+Now finishing sending connection
+Sending second message
+  Queue EP 02 with 18 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 18
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xf412  [1] = 0x0000
+OK
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000014
+  Sync BufCtrl: [0] = 0x6012  [1] = 0x0000
+  Short packet on buffer 0 with 18 bytes
+Completed transfer of 18 bytes on ep 2 out
+  Sync BufCtrl: [0] = 0xc018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 in
+Got here somehow. Status=16
+on EP 02 with 18 bytes
+Success result.
+Connected, now awaiting auth!!
+ADB EVENT OPEN connection=[host::microbridge]
+on EP 82 with 24 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Awaiting auth message got message:
+AUTH message [48545541] 1 0
+
+------------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x3440  [1] = 0x0000
+OK
+----Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000010
+  Sync BufCtrl: [0] = 0xe014  [1] = 0x0000
+  Short packet on buffer 0 with 20 bytes
+Completed transfer of 20 bytes on ep 2 in
+Got here somehow. Status=16
+--------------------- Done resubmitting buffer ----on EP 82 with 20 bytes
+--------------------------[dev 1: ep 82] Incoming data reciever:------------------------Handling data received:
+Awaiting auth data got data:
+7E 45 DC 30 EC 41 8B 0A AA 89 F6 39 09 3D D1 81
+5A 46 AE 9B Now sending public key auth
+Writing ADB USB string message to 1 end point 2
+OUT << AUTH message [48545541] 3 0 736 bytes
+
+Sending callback message
+  Queue EP 02 with 24 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 24
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd418  [1] = 0x0000
+OStarted here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4018  [1] = 0x0000
+  Short packet on buffer 0 with 24 bytes
+Completed transfer of 24 bytes on ep 2 out
+Got here somehow. Status=16
+K
+
+------------------------- Now resubmitting buffer ----  Queue EP 82 with 128 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x82, len 128
+Single buffer  Prepare BufCtrl: [0] = 0x1440  [1] = 0x0000
+OK
+------------------------- Done resubmitting buffer ----on EP 02 with 24 bytes
+Success result.
+Now finishing sending auth
+Sending second message
+  Queue EP 02 with 736 bytes ... hcd_edpt_xfer dev_addr 1, ep_addr 0x2, len 736
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+OK
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0x9440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4040  [1] = 0x0000
+buffer full
+Single buffer  Prepare BufCtrl: [0] = 0xb440  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x6040  [1] = 0x0000
+buffer full
+Last buffer
+Single buffer  Prepare BufCtrl: [0] = 0xd420  [1] = 0x0000
+Got here somehow. Status=16
+Started here somehow. Status=16
+Buffer completex
+buf_status 0x00000004
+  Sync BufCtrl: [0] = 0x4020  [1] = 0x0000
+  Short packet on buffer 0 with 32 bytes
+Completed transfer of 736 bytes on ep 2 out
+Got here somehow. Status=16
+on EP 02 with 736 bytes
+Success result.

@@ -1,0 +1,14 @@
+# Target labels
+ pico_sdk-populate
+# Source files and their labels
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/CMakeFiles/pico_sdk-populate-complete.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-build.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-configure.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-download.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-install.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-mkdir.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-patch.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-test.rule
+/Users/oluwagbemigameduoye/git/pico_build/SSP2/build/_deps/pico_sdk-subbuild/pico_sdk-populate-prefix/src/pico_sdk-populate-stamp/pico_sdk-populate-update.rule
